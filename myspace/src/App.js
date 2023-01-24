@@ -5,8 +5,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import Home from './src/pages/home.js';
-import About from './src/pages/about.js';
+import Home from './pages/Home.js';
+import About from './pages/About.js';
 
 
 export default function App() {
@@ -20,9 +20,6 @@ export default function App() {
             </li>
             <li>
               <Link to="/about">About</Link>
-            </li>
-            <li>
-              <Link to="/users">Users</Link>
             </li>
           </ul>
         </nav>
